@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* Mobile design / general view */
+body{
+    background-color: #d6e2f0;
+    font-family: "Outfit";
+}
+main{
+    padding: 15% 10% 10%;
+}
+.container{
+    padding: 5%;
+    background-color: white;
+    border-radius: 25px;
+}
+.top-part img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.bottom-part{
+    padding: 6% 7%;
+    text-align: center;
+}
+h1{
+    line-height: 1.4;
+    font-size: 24px;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    padding-top: 5%;
+    font-size: 1.1rem;
+    color: #7b879d;
+}
+
+/* Footer / Atrribution */
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    padding: 0 0 3rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+}
+
+.attribution a {
+    text-decoration: none;
+    font-size: .8rem;
+    color: hhsl(218, 44%, 22%);
+}
+
+/* Desktop design */
+
+@media (min-width:724px) {
+    main{
+    padding: 5% 36%;
+}
+    
+}
